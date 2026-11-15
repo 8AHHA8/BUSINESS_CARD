@@ -31,6 +31,7 @@
                 <span class="brand-dot"></span> B.Homa
             </a>
             
+            <!-- ZAKŁADKI DESKTOP -->
             <div class="nav-tabs-custom d-none d-lg-flex" role="tablist">
                 <button class="tab-btn active" id="tab-btn-experience" role="tab" aria-selected="true" aria-controls="tab-experience" onclick="switchView('tab-experience', this)">{% translate "Doświadczenie" %}</button>
                 <button class="tab-btn" id="tab-btn-education" role="tab" aria-selected="false" aria-controls="tab-education" onclick="switchView('tab-education', this)">{% translate "Edukacja" %}</button>
@@ -64,6 +65,20 @@
                         {% endfor %}
                     </ul>
                 </div>
+
+                <!-- PRZYCISK HAMBURGER (TYLKO MOBILE) -->
+                <button class="navbar-toggler border-0 d-lg-none text-light" type="button" data-bs-toggle="collapse" data-bs-target="#mobileMenu" aria-controls="mobileMenu" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="bi bi-list fs-1"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- MENU MOBILNE (ROZWIJANE) -->
+        <div class="collapse d-lg-none mt-3" id="mobileMenu">
+            <div class="d-flex flex-column gap-2 p-3" style="background: rgba(20,20,20,0.95); border-radius: 15px; border: 1px solid var(--glass-border);">
+                <button class="tab-btn active text-start" id="tab-btn-experience-m" role="tab" onclick="switchView('tab-experience', this); closeMobileMenu()">{% translate "Doświadczenie" %}</button>
+                <button class="tab-btn text-start" id="tab-btn-education-m" role="tab" onclick="switchView('tab-education', this); closeMobileMenu()">{% translate "Edukacja" %}</button>
+                <button class="tab-btn text-start" id="tab-btn-projects-m" role="tab" onclick="switchView('tab-projects', this); closeMobileMenu()">{% translate "Projekty" %}</button>
             </div>
         </div>
     </nav>
@@ -75,5 +90,12 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="{% static 'core/js/main.js' %}"></script>
+    <script>
+        function closeMobileMenu() {
+            var mobileMenu = document.getElementById('mobileMenu');
+            var bsCollapse = bootstrap.Collapse.getInstance(mobileMenu);
+            if (bsCollapse) { bsCollapse.hide(); }
+        }
+    </script>
 </body>
 </html>

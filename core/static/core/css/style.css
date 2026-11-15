@@ -222,19 +222,19 @@ h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; letter-spacing: -1px; }
 
 .custom-badge { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); color: #ccc; font-weight: 500; padding: 0.4rem 0.8rem; border-radius: 8px; }
 
-@media (max-width: 768px) {
-    .glass-card {
-        padding: 1.5rem;
+@media (max-width: 991px) {
+    .nav-tabs-custom {
+        display: none !important;
     }
-    .d-flex.justify-content-between {
-        flex-direction: column;
-        align-items: flex-start !important;
-        gap: 0.5rem !important;
+    #mobileMenu .tab-btn {
+        background: rgba(255,255,255,0.05);
+        border: 1px solid var(--glass-border);
+        padding: 1rem;
+        font-size: 1.1rem;
+        color: #fff;
     }
-    .d-flex.justify-content-between .flex-shrink-0 {
-        margin-top: 0.5rem;
-    }
-    .navbar-brand {
-        font-size: 1.2rem;
+    #mobileMenu .tab-btn.active {
+        background: var(--gradient-main);
+        border-color: transparent;
     }
 }

@@ -11,8 +11,27 @@ function switchView(viewId, btnElement) {
         btn.classList.remove('active');
         btn.setAttribute('aria-selected', 'false');
     });
-    btnElement.classList.add('active');
-    btnElement.setAttribute('aria-selected', 'true');
+
+    if(btnElement) {
+        btnElement.classList.add('active');
+        btnElement.setAttribute('aria-selected', 'true');
+    }
+
+    const mapIds = {
+        'tab-experience': ['tab-btn-experience', 'tab-btn-experience-m'],
+        'tab-education': ['tab-btn-education', 'tab-btn-education-m'],
+        'tab-projects': ['tab-btn-projects', 'tab-btn-projects-m']
+    };
+
+    if(mapIds[viewId]) {
+        mapIds[viewId].forEach(id => {
+            const el = document.getElementById(id);
+            if(el) {
+                el.classList.add('active');
+                el.setAttribute('aria-selected', 'true');
+            }
+        });
+    }
     
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
