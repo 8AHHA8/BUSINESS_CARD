@@ -1,0 +1,67 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-13 17:20+0100\n"
+"PO-Revision-Date: 2026-11-13 17:20+0100\n"
+"Last-Translator: Błażej Homa <blazejh@op.pl>\n"
+"Language-Team: English\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Edukacja"
+msgstr "Education"
+
+msgid "Doświadczenie"
+msgstr "Experience"
+
+msgid "Projekty"
+msgstr "Projects"
+
+msgid "Przejdź do treści"
+msgstr "Skip to content"
+
+msgid "Wizytówka"
+msgstr "Business Card"
+
+msgid "Cześć, jestem"
+msgstr "Hi, I'm"
+
+msgid "Python | Data Analysis | Banking Processes (KYC/AML/CDD). Obecnie poszerzam kompetencje z Big Data na studiach magisterskich, łącząc praktykę z teorią."
+msgstr "Python | Data Analysis | Banking Processes (KYC/AML/CDD). Currently expanding my Big Data competencies during my Master's studies, combining practice with theory."
+
+msgid "Polski (C2)"
+msgstr "Polish (C2)"
+
+msgid "Angielski (C1)"
+msgstr "English (C1)"
+
+msgid "Niemiecki (B2)"
+msgstr "German (B2)"
+
+msgid "Wykształcenie"
+msgstr "Education"
+
+msgid "Obecnie"
+msgstr "Present"
+
+msgid "Kariera"
+msgstr "Career"
+
+msgid "Doświadczenie Zawodowe"
+msgstr "Professional Experience"
+
+msgid "Portfolio"
+msgstr "Portfolio"
+
+msgid "Wybrane Projekty"
+msgstr "Selected Projects"
+
+msgid "Zobacz kod"
+msgstr "View Code"
+
+msgid "Zbudowane w Django."
+msgstr "Built with Django."

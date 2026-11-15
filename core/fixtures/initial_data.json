@@ -1,0 +1,284 @@
+[
+  {
+    "model": "core.education",
+    "pk": 1,
+    "fields": {
+      "institution": "Wyższa Szkoła Informatyki i Zarządzania",
+      "field_of_study": "Analityka biznesowa i Big Data",
+      "degree": "Magister",
+      "start_date": "2025-10-01",
+      "end_date": null,
+      "description": "",
+      "institution_en": "University of Information Technology and Management in Rzeszów",
+      "field_of_study_en": "Business Analytics and Big Data",
+      "degree_en": "Master's Degree",
+      "institution_de": "Hochschule für Informatik und Management in Rzeszów",
+      "field_of_study_de": "Business Analytics und Big Data",
+      "degree_de": "Magister"
+    }
+  },
+  {
+    "model": "core.education",
+    "pk": 2,
+    "fields": {
+      "institution": "Uniwersytet Rzeszowski",
+      "field_of_study": "Informatyka, Specjalizacja: Aplikacje internetowe",
+      "degree": "Inżynier (BEng)",
+      "start_date": "2021-10-01",
+      "end_date": "2025-02-28",
+      "description": "",
+      "institution_en": "Resovian University",
+      "field_of_study_en": "Computer Science, Specialization: Web Applications",
+      "degree_en": "Bachelor's Degree (BEng)",
+      "institution_de": "Universität Rzeszów",
+      "field_of_study_de": "Informatik, Spezialisierung: Webanwendungen",
+      "degree_de": "Ingenieur (BEng)"
+    }
+  },
+  {
+    "model": "core.education",
+    "pk": 3,
+    "fields": {
+      "institution": "Sapienza Università di Roma",
+      "field_of_study": "Applied Computer Science and Artificial Intelligence",
+      "degree": "Wymiana ERASMUS+",
+      "start_date": "2024-09-01",
+      "end_date": "2025-02-28",
+      "description": "",
+      "institution_en": "Sapienza Università di Roma",
+      "field_of_study_en": "Applied Computer Science and Artificial Intelligence",
+      "degree_en": "ERASMUS+ Exchange",
+      "institution_de": "Sapienza Universität Rom",
+      "field_of_study_de": "Angewandte Informatik und Künstliche Intelligenz",
+      "degree_de": "ERASMUS+ Austausch"
+    }
+  },
+  {
+    "model": "core.education",
+    "pk": 4,
+    "fields": {
+      "institution": "Theodor-Heuss-Gymnasium w Dinslaken i Neues Gymnasium w Bochum",
+      "field_of_study": "Profil dwujęzyczny (niemiecki/angielski)",
+      "degree": "Wymiana AFS",
+      "start_date": "2018-09-01",
+      "end_date": "2019-06-30",
+      "description": "",
+      "institution_en": "Theodor-Heuss-Gymnasium in Dinslaken and Neues Gymnasium in Bochum",
+      "field_of_study_en": "Bilingual Profile (German/English)",
+      "degree_en": "International Exchange",
+      "institution_de": "Theodor-Heuss-Gymnasium in Dinslaken und Neues Gymnasium in Bochum",
+      "field_of_study_de": "Zweisprachiges Profil (Deutsch/Englisch)",
+      "degree_de": "AFS Austausch"
+    }
+  },
+  {
+    "model": "core.experience",
+    "pk": 1,
+    "fields": {
+      "company": "CERI International",
+      "position": "Młodszy Konsultant ds. Procesów Wsparcia Bankowości z j. niemieckim",
+      "start_date": "2025-06-01",
+      "end_date": "2026-08-31",
+      "description": "- Przeprowadzanie procesów KYC oraz CDD w celu weryfikacji tożsamości Klienta na podstawie wniosków i dokumentów.\n- Realizacja procedur AML – weryfikacja wiarygodności i zgodności danych z regulacjami.\n- Zakładanie kont bankowych oraz bieżąca obsługa wniosków klientowskich.\n- Uzupełnianie i standaryzacja danych (Data Cleansing) oraz dbanie o ich jakość w systemach bankowych.\n- Ocena ryzyka Klienta, bieżący monitoring relacji, archiwizacja oraz aktualizacja danych, a także raportowanie podejrzanych transakcji (SAR) zgodnie z obowiązującymi regulacjami.",
+      "position_en": "Junior Consultant for Banking Support Processes with German",
+      "description_en": "- Conducting KYC and CDD processes to verify Client identity based on applications and documentation.\n- Executing AML procedures – verifying data credibility and compliance with regulations.\n- Opening bank accounts and handling ongoing client applications.\n- Data Cleansing and standardization, ensuring high data quality in banking systems.\n- Assessing Client risk, ongoing relationship monitoring, data archiving and updates, as well as reporting suspicious activity (SAR).",
+      "position_de": "Junior Consultant für Bankunterstützungsprozesse mit Deutsch",
+      "description_de": "- Durchführung von KYC- und CDD-Prozessen zur Überprüfung der Kundenidentität anhand von Anträgen und Dokumenten.\n- Durchführung von AML-Verfahren – Überprüfung der Datenintegrität und Einhaltung von Vorschriften.\n- Eröffnung von Bankkonten und Bearbeitung laufender Kundenanträge.\n- Datenbereinigung und Standardisierung zur Sicherstellung hoher Datenqualität in Banksystemen.\n- Bewertung des Kundenrisikos, laufende Beziehungsüberwachung, Datenarchivierung und -aktualisierung sowie Meldung verdächtiger Aktivitäten (SAR)."
+    }
+  },
+  {
+    "model": "core.experience",
+    "pk": 2,
+    "fields": {
+      "company": "Urząd Miasta Rzeszowa",
+      "position": "Praktykant, Biuro Obsługi Informatycznej i Telekomunikacyjnej",
+      "start_date": "2024-04-01",
+      "end_date": "2024-06-30",
+      "description": "- Zarządzanie danymi.\n- Tworzenie baz danych w systemie Qasystent.\n- Obsługa help-desk.\n- Opracowywanie scenariuszy postępowania w sytuacjach kryzysowych.",
+      "position_en": "Intern, IT and Telecommunications Service Office",
+      "description_en": "- Data management.\n- Creating databases in the Qasystent system.\n- Providing help-desk support.\n- Developing action plans for crisis situations.",
+      "position_de": "Praktikant, Büro für IT- und Telekommunikationsdienstleistungen",
+      "description_de": "- Datenverwaltung.\n- Erstellung von Datenbanken im Qasystent-System.\n- Helpdesk-Support.\n- Entwicklung von Handlungsplänen für Krisensituationen."
+    }
+  },
+  {
+    "model": "core.experience",
+    "pk": 3,
+    "fields": {
+      "company": "Ropczyce Engineering Sp. z o.o.",
+      "position": "Praktykant",
+      "start_date": "2024-07-01",
+      "end_date": "2024-09-30",
+      "description": "- Analiza kosztowa instalacji, zleceń, nadzoru nad wygrzewem urządzeń KTRC, SepO i TNV w ENNS (Austria).\n- Konserwacja systemów IT.\n- Tłumaczenia podczas delegacji do Austrii.\n- Projektowanie części do maszyn w Solid Edge.",
+      "position_en": "Intern",
+      "description_en": "- Cost analysis of installations, work orders, supervision of the curing process for KTRC, SepO, and TNV equipment at ENNS (Austria).\n- Maintenance of IT systems.\n- Translation services during business trips to Austria.\n- Designing machine parts in Solid Edge.",
+      "position_de": "Praktikant",
+      "description_de": "- Kostenanalyse von Installationen, Aufträgen, Überwachung des Aushärtungsprozesses für KTRC-, SepO- und TNV-Geräte bei ENNS (Österreich).\n- Wartung von IT-Systemen.\n- Übersetzungsdienste während Dienstreisen nach Österreich.\n- Konstruktion von Maschinenteilen in Solid Edge."
+    }
+  },
+  {
+    "model": "core.experience",
+    "pk": 5,
+    "fields": {
+      "company": "Ropczyce Engineering Sp. z o.o.",
+      "position": "Praktykant",
+      "start_date": "2023-08-01",
+      "end_date": "2023-09-30",
+      "description": "- Analiza kosztowa instalacji, zleceń, nadzoru nad wygrzewem urządzeń KTRC, SepO i TNV w ENNS (Austria).\n- Konserwacja systemów IT.\n- Tłumaczenia podczas delegacji do Austrii.\n- Projektowanie części do maszyn w Solid Edge.",
+      "position_en": "Intern",
+      "description_en": "- Cost analysis of installations, work orders, supervision of the curing process for KTRC, SepO, and TNV equipment at ENNS (Austria).\n- Maintenance of IT systems.\n- Translation services during business trips to Austria.\n- Designing machine parts in Solid Edge.",
+      "position_de": "Praktikant",
+      "description_de": "- Kostenanalyse von Installationen, Aufträgen, Überwachung des Aushärtungsprozesses für KTRC-, SepO- und TNV-Geräte bei ENNS (Österreich).\n- Wartung von IT-Systemen.\n- Übersetzungsdienste während Dienstreisen nach Österreich.\n- Konstruktion von Maschinenteilen in Solid Edge."
+    }
+  },
+  {
+    "model": "core.experience",
+    "pk": 4,
+    "fields": {
+      "company": "X-FAB Erfurt",
+      "position": "Kontroler Jakości",
+      "start_date": "2022-08-01",
+      "end_date": "2022-09-30",
+      "description": "- Kontrola jakości wafli krzemowych.\n- Obsługa mikroskopu cyfrowego.\n- Zgłaszanie usterek oraz raportowanie danych.\n- Praca w sterylnych warunkach.",
+      "position_en": "Quality Controller",
+      "description_en": "- Quality control of silicon wafers.\n- Operation of digital microscopes.\n- Defect reporting and analysis.\n- Data documentation and traceability.\n- Work performed in sterile cleanroom conditions.",
+      "position_de": "Qualitätskontrolleur",
+      "description_de": "- Qualitätskontrolle von Siliziumwafern.\n- Bedienung von Digitalmikroskopen.\n- Fehlermeldung und Datenberichterstattung.\n- Arbeit unter sterilen Reinraumbedingungen."
+    }
+  },
+  {
+    "model": "core.project",
+    "pk": 1,
+    "fields": {
+      "title": "Translator Website",
+      "description": "Nowoczesna, responsywna strona-wizytówka dla tłumacza przysięgłego. Zbudowana w Django, z unikalnym ciemnym designem i wielowarstwowymi animacjami tła (lava lamp, unoszące się drobinki, fale).",
+      "technologies": "Django, Python, HTML5, CSS3, JavaScript",
+      "github_link": "https://github.com/8AHHA8/TRANSLATOR_WEBSITE",
+      "order": 1,
+      "description_en": "Modern, responsive business card website for a certified translator. Built with Django, featuring a unique dark design and multi-layered animated backgrounds (lava lamp, floating dust, waves).",
+      "title_en": "Translator Website",
+      "description_de": "Moderne, responsive Visitenkarten-Website für einen vereidigten Übersetzer. Erstellt mit Django, mit einzigartigem dunklem Design und mehrschichtigen animierten Hintergründen (Lava-Lampe, schwebende Partikel, Wellen).",
+      "title_de": "Übersetzer-Website"
+    }
+  },
+  {
+    "model": "core.project",
+    "pk": 2,
+    "fields": {
+      "title": "INTUOR HARDSEARCH",
+      "description": "Ultraszybka i minimalistyczna aplikacja desktopowa do wyszukiwania tekstu w dokumentach PDF, DOCX, XLSX i innych. Wykorzystuje silnik SQLite FTS5 do indeksowania tysięcy plików w ułamku sekundy.",
+      "technologies": "Python, SQLite FTS5, Tkinter, PyMuPDF",
+      "github_link": "https://github.com/8AHHA8/INTUOR_HARDSEARCH",
+      "order": 2,
+      "description_en": "Ultra-fast and minimalist desktop app for searching text in PDF, DOCX, XLSX and other files. Uses SQLite FTS5 engine to index thousands of files in a fraction of a second.",
+      "title_en": "INTUOR HARDSEARCH",
+      "description_de": "Ultraschnelle und minimalistische Desktop-Anwendung zur Textsuche in PDF-, DOCX-, XLSX- und anderen Dateien. Verwendet die SQLite FTS5-Engine, um Tausende von Dateien in Sekundenbruchteilen zu indizieren.",
+      "title_de": "INTUOR HARDSEARCH"
+    }
+  },
+  {
+    "model": "core.project",
+    "pk": 3,
+    "fields": {
+      "title": "WHISPERER_V1",
+      "description": "Aplikacja desktopowa do szybkiej i dokładnej transkrypcji audio z plików lokalnych oraz linków YouTube. Generuje ustrukturyzowane dokumenty .docx ze znacznikami czasu dla poszczególnych słów.",
+      "technologies": "Python, Faster-Whisper, CustomTkinter, CUDA",
+      "github_link": "https://github.com/8AHHA8/WHISPERER_V1",
+      "order": 3,
+      "description_en": "Desktop app for fast and accurate audio transcription from local files and YouTube links. Generates structured .docx documents with word-level timestamps.",
+      "title_en": "WHISPERER_V1",
+      "description_de": "Desktop-Anwendung für schnelle und genaue Audiotranskription aus lokalen Dateien und YouTube-Links. Erstellt strukturierte .docx-Dokumente mit Zeitstempeln auf Wortebene.",
+      "title_de": "WHISPERER_V1"
+    }
+  },
+  {
+    "model": "core.project",
+    "pk": 4,
+    "fields": {
+      "title": "VOICE-O-MAT",
+      "description": "Generator audiobooków i aplikacja TTS inspirowana vintage'owymi magnetofonami. Wykorzystuje silnik XTTS v2 do klonowania głosu i syntezy mowy w 6 językach. Posiada interaktywnego awatara i retro interfejs.",
+      "technologies": "Python, XTTS v2, PyTorch, Tkinter",
+      "github_link": "https://github.com/8AHHA8/VOICE_O_MAT",
+      "order": 4,
+      "description_en": "Audiobook generator and TTS app inspired by vintage reel-to-reel tape recorders. Uses XTTS v2 engine for voice cloning and speech synthesis in 6 languages. Features an interactive avatar and retro interface.",
+      "title_en": "VOICE-O-MAT",
+      "description_de": "Hörbuchgenerator und TTS-Anwendung, inspiriert von Vintage-Tonbandgeräten. Verwendet die XTTS v2-Engine für Stimmklonen und Sprachsynthese in 6 Sprachen. Verfügt über einen interaktiven Avatar und eine Retro-Benutzeroberfläche.",
+      "title_de": "VOICE-O-MAT"
+    }
+  },
+  {
+    "model": "core.project",
+    "pk": 5,
+    "fields": {
+      "title": "SpeechDefectsValidation",
+      "description": "Moduł walidacyjny do nadzorowania ćwiczeń logopedycznych. Weryfikuje poprawność ruchów ust i wymowy w czasie rzeczywistym z użyciem wizji komputerowej (OpenCV, Mediapipe) i analizy dźwięku (Vosk, LSTM).",
+      "technologies": "Python, OpenCV, Mediapipe, Vosk, LSTM",
+      "github_link": "https://github.com/8AHHA8/SpeechDefectsValidation",
+      "order": 5,
+      "description_en": "Validation module for supervising speech therapy exercises. Verifies lip movements and pronunciation in real-time using computer vision (OpenCV, Mediapipe) and sound analysis (Vosk, LSTM).",
+      "title_en": "SpeechDefectsValidation",
+      "description_de": "Validierungsmodul zur Überwachung von Logopädie-Übungen. Überprüft Lippenbewegungen und Aussprache in Echtzeit mit Computer Vision (OpenCV, Mediapipe) und Tonanalyse (Vosk, LSTM).",
+      "title_de": "SpeechDefectsValidation"
+    }
+  },
+  {
+    "model": "core.project",
+    "pk": 6,
+    "fields": {
+      "title": "MirrorCubeSolver",
+      "description": "Program wspomagający układanie lustrzanej kostki Rubika. Analizuje obraz wideo z kamery Kinect i dane głębi, aby wykryć aktualny stan kostki i zaproponować sekwencję ruchów.",
+      "technologies": "Python, OpenCV, NumPy, Kinect, PyFreenect2",
+      "github_link": "https://github.com/8AHHA8/MirrorCubeSolver",
+      "order": 6,
+      "description_en": "Program to assist in solving the Mirror Cube. Analyzes video input and depth data from a Kinect camera to detect the current state of the cube and suggest a sequence of moves.",
+      "title_en": "MirrorCubeSolver",
+      "description_de": "Programm zur Unterstützung beim Lösen des Mirror Cube. Analysiert Videoeingaben und Tiefendaten einer Kinect-Kamera, um den aktuellen Zustand des Würfels zu erkennen und eine Bewegungsfolge vorzuschlagen.",
+      "title_de": "MirrorCubeSolver"
+    }
+  },
+  {
+    "model": "core.skill",
+    "pk": 1,
+    "fields": { "name": "Python", "category": "tech", "order": 1, "name_en": "Python", "name_de": "Python" }
+  },
+  {
+    "model": "core.skill",
+    "pk": 2,
+    "fields": { "name": "AML/KYC/CDD", "category": "tech", "order": 2, "name_en": "AML/KYC/CDD", "name_de": "AML/KYC/CDD" }
+  },
+  {
+    "model": "core.skill",
+    "pk": 3,
+    "fields": { "name": "PowerBI", "category": "tech", "order": 3, "name_en": "PowerBI", "name_de": "PowerBI" }
+  },
+  {
+    "model": "core.skill",
+    "pk": 4,
+    "fields": { "name": "Solid Edge", "category": "tech", "order": 4, "name_en": "Solid Edge", "name_de": "Solid Edge" }
+  },
+  {
+    "model": "core.skill",
+    "pk": 5,
+    "fields": { "name": "MS Office", "category": "tech", "order": 5, "name_en": "MS Office", "name_de": "MS Office" }
+  },
+  {
+    "model": "core.skill",
+    "pk": 6,
+    "fields": { "name": "Komunikacja interpersonalna", "category": "soft", "order": 6, "name_en": "Interpersonal communication", "name_de": "Interpersonale Kommunikation" }
+  },
+  {
+    "model": "core.skill",
+    "pk": 7,
+    "fields": { "name": "Efektywna praca zespołowa", "category": "soft", "order": 7, "name_en": "Effective teamwork", "name_de": "Effektive Teamarbeit" }
+  },
+  {
+    "model": "core.skill",
+    "pk": 8,
+    "fields": { "name": "Kreatywne rozwiązywanie problemów", "category": "soft", "order": 8, "name_en": "Creative problem-solving", "name_de": "Kreative Problemlösung" }
+  },
+  {
+    "model": "core.skill",
+    "pk": 9,
+    "fields": { "name": "Myślenie logiczne i krytyczne", "category": "soft", "order": 9, "name_en": "Logical and critical thinking", "name_de": "Logisches und kritisches Denken" }
+  }
+]
