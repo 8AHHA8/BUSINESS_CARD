@@ -9,7 +9,7 @@
         <h1 class="display-2 fw-bold mb-4" style="font-family: 'Space Grotesk', sans-serif;">
             {% translate "Cześć, jestem" %} <span class="text-gradient">Błażej.</span>
         </h1>
-        <p class="lead text-muted mb-5 mx-auto" style="max-width: 700px; font-size: 1.2rem;">
+        <p class="lead mb-5 mx-auto" style="max-width: 700px; font-size: 1.2rem; color: #a1a1aa;">
             {% blocktranslate %}Python | Data Analysis | Banking Processes (KYC/AML/CDD). Obecnie poszerzam kompetencje z Big Data na studiach magisterskich, łącząc praktykę z teorią.{% endblocktranslate %}
         </p>
         
@@ -41,9 +41,9 @@
                 {% for exp in experiences %}
                 <div class="col-12 col-lg-10 text-start">
                     <div class="glass-card">
-                        <div class="d-flex justify-content-between align-items-start gap-3 mb-3">
+                        <div class="d-flex justify-content-between align-items-start gap-3 mb-3 flex-column flex-md-row">
                             <div style="flex: 1;">
-                                <h3 class="h4 fw-bold text-light mb-1">{{ exp.position|fix_orphans|safe }}</h3>
+                                <h3 class="h4 fw-bold mb-1" style="color: #ffffff;">{{ exp.position|fix_orphans|safe }}</h3>
                                 <p class="text-gradient fw-bold fs-5 mb-0">{{ exp.company|fix_orphans|safe }}</p>
                             </div>
                             <div class="flex-shrink-0">
@@ -52,7 +52,7 @@
                                 </span>
                             </div>
                         </div>
-                        <div class="text-muted" style="font-size: 1.05rem; line-height: 1.7;">
+                        <div style="font-size: 1.05rem; line-height: 1.7; color: #e2e8f0;">
                             {{ exp.description|linebreaks }}
                         </div>
                     </div>
@@ -69,11 +69,11 @@
                 {% for edu in educations %}
                 <div class="col-12 col-lg-10 text-start">
                     <div class="glass-card">
-                        <div class="d-flex justify-content-between align-items-start gap-3">
+                        <div class="d-flex justify-content-between align-items-start gap-3 flex-column flex-md-row">
                             <div style="flex: 1;">
-                                <h3 class="h4 fw-bold text-light mb-1">{{ edu.degree|fix_orphans|safe }}</h3>
+                                <h3 class="h4 fw-bold mb-1" style="color: #ffffff;">{{ edu.degree|fix_orphans|safe }}</h3>
                                 <p class="text-gradient fw-bold fs-5 mb-2">{{ edu.institution|fix_orphans|safe }}</p>
-                                <p class="text-muted mb-0">{{ edu.field_of_study|fix_orphans|safe }}</p>
+                                <p class="mb-0" style="color: #cbd5e1;">{{ edu.field_of_study|fix_orphans|safe }}</p>
                             </div>
                             <div class="flex-shrink-0">
                                 <span class="custom-badge">{{ edu.start_date|date:"Y" }} – {% if edu.end_date %}{{ edu.end_date|date:"Y" }}{% else %}{% translate "Obecnie" %}{% endif %}</span>
@@ -93,11 +93,11 @@
                 {% for project in projects %}
                 <div class="col-12 col-lg-10 text-start">
                     <div class="glass-card d-flex flex-column">
-                        <div class="d-flex justify-content-between align-items-start gap-3 mb-3">
-                            <h3 class="h4 fw-bold text-light mb-0" style="flex: 1;">{{ project.title|fix_orphans|safe }}</h3>
+                        <div class="d-flex justify-content-between align-items-start gap-3 mb-3 flex-column flex-md-row">
+                            <h3 class="h4 fw-bold mb-0" style="flex: 1; color: #ffffff;">{{ project.title|fix_orphans|safe }}</h3>
                             <span class="custom-badge flex-shrink-0">{{ project.technologies|fix_orphans|safe }}</span>
                         </div>
-                        <p class="text-muted flex-grow-1" style="font-size: 1.05rem;">{{ project.description }}</p>
+                        <p class="flex-grow-1" style="font-size: 1.05rem; color: #e2e8f0;">{{ project.description }}</p>
                         {% if project.github_link %}
                             <div class="mt-3 pt-3 border-top border-secondary border-opacity-25 text-end">
                                 <a href="{{ project.github_link }}" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light btn-sm rounded-pill px-3">
