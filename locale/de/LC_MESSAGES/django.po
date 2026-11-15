@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-13 17:20+0100\n"
-"PO-Revision-Date: 2026-11-13 17:20+0100\n"
+"POT-Creation-Date: 2026-11-15 13:00+0100\n"
+"PO-Revision-Date: 2026-11-15 13:00+0100\n"
 "Last-Translator: Błażej Homa <blazejh@op.pl>\n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -12,11 +12,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "Edukacja"
-msgstr "Ausbildung"
+msgid "Wizytówka"
+msgstr "Visitenkarte"
 
 msgid "Doświadczenie"
 msgstr "Erfahrung"
+
+msgid "Edukacja"
+msgstr "Ausbildung"
 
 msgid "Projekty"
 msgstr "Projekte"
@@ -24,8 +27,26 @@ msgstr "Projekte"
 msgid "Przejdź do treści"
 msgstr "Zum Inhalt springen"
 
-msgid "Wizytówka"
-msgstr "Visitenkarte"
+msgid "Kariera"
+msgstr "Karriere"
+
+msgid "Doświadczenie Zawodowe"
+msgstr "Berufserfahrung"
+
+msgid "Wykształcenie"
+msgstr "Ausbildung"
+
+msgid "Obecnie"
+msgstr "Aktuell"
+
+msgid "Portfolio"
+msgstr "Portfolio"
+
+msgid "Wybrane Projekty"
+msgstr "Ausgewählte Projekte"
+
+msgid "Zobacz kod"
+msgstr "Code ansehen"
 
 msgid "Cześć, jestem"
 msgstr "Hallo, ich bin"
@@ -41,27 +62,3 @@ msgstr "Englisch (C1)"
 
 msgid "Niemiecki (B2)"
 msgstr "Deutsch (B2)"
-
-msgid "Wykształcenie"
-msgstr "Ausbildung"
-
-msgid "Obecnie"
-msgstr "Aktuell"
-
-msgid "Kariera"
-msgstr "Karriere"
-
-msgid "Doświadczenie Zawodowe"
-msgstr "Berufserfahrung"
-
-msgid "Portfolio"
-msgstr "Portfolio"
-
-msgid "Wybrane Projekty"
-msgstr "Ausgewählte Projekte"
-
-msgid "Zobacz kod"
-msgstr "Code ansehen"
-
-msgid "Zbudowane w Django."
-msgstr "Mit Django erstellt."
