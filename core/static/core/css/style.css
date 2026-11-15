@@ -151,6 +151,7 @@ main {
     border: 1px solid var(--glass-border);
     border-radius: 24px; padding: 2.5rem;
     transition: all 0.4s ease; position: relative; overflow: hidden;
+    color: #eaeaea; /* WYMUSZONY JASNY KOLOR TEKSTU */
 }
 .glass-card::before {
     content: ''; position: absolute; top: 0; left: 0; right: 0; height: 1px;
@@ -220,3 +221,20 @@ h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; letter-spacing: -1px; }
 *:focus-visible { outline: none; box-shadow: var(--focus-ring); }
 
 .custom-badge { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); color: #ccc; font-weight: 500; padding: 0.4rem 0.8rem; border-radius: 8px; }
+
+@media (max-width: 768px) {
+    .glass-card {
+        padding: 1.5rem;
+    }
+    .d-flex.justify-content-between {
+        flex-direction: column;
+        align-items: flex-start !important;
+        gap: 0.5rem !important;
+    }
+    .d-flex.justify-content-between .flex-shrink-0 {
+        margin-top: 0.5rem;
+    }
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+}
