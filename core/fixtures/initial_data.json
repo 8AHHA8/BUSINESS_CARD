@@ -148,6 +148,21 @@
   },
   {
     "model": "core.project",
+    "pk": 7,
+    "fields": {
+      "title": "Portfolio Website",
+      "description": "Moja osobista wizytówka zawodowa zbudowana w Django. Zawiera trójjęzyczny interfejs (PL/EN/DE) oparty na systemie i18n, animowane tło (Canvas API) oraz responsywny design. Wdrożona na serwerze PythonAnywhere z konfiguracją produkcyjną (DEBUG=False, HSTS, SSL).",
+      "technologies": "Django, Python, HTML5, CSS3, JavaScript",
+      "github_link": "https://github.com/8AHHA8/BUSINESS_CARD.git",
+      "order": 0,
+      "description_en": "My personal portfolio website built with Django. Features a trilingual interface (PL/EN/DE) based on the i18n system, animated background (Canvas API), and responsive design. Deployed on PythonAnywhere with production configuration (DEBUG=False, HSTS, SSL).",
+      "title_en": "Portfolio Website",
+      "description_de": "Meine persönliche Portfolio-Website, erstellt mit Django. Verfügt über eine dreisprachige Benutzeroberfläche (PL/EN/DE) basierend auf dem i18n-System, einen animierten Hintergrund (Canvas API) und ein responsives Design. Bereitgestellt auf PythonAnywhere mit Produktionskonfiguration (DEBUG=False, HSTS, SSL).",
+      "title_de": "Portfolio-Website"
+    }
+  },
+  {
+    "model": "core.project",
     "pk": 1,
     "fields": {
       "title": "Translator Website",
